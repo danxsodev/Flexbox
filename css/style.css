@@ -73,8 +73,15 @@ background-color:rgb(0, 0, 0);
 #jogo1 {
     background: url(/imagens\ da\ landing\ page/capa_gow_4.png) center/cover;
 }
-#jogo1 h1 p {
-    background-color: rgba(150, 150, 150, 0);
+#jogo1  p {
+    font-size: 20px;
+    text-align: justify;
+    background-color: rgb(255, 248, 248);
+    opacity: 50%;
+}
+.txt {
+    width: 30%;
+    padding: 10px;
 }
 #jogo2 {
     background: url(/imagens\ da\ landing\ page/capa_tlou.png) center/cover no-repeat;
