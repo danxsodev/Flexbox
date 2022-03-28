@@ -78,6 +78,7 @@ background-color:rgb(0, 0, 0);
     text-align: justify;
     background-color: rgb(255, 248, 248);
     opacity: 50%;
+    color: black;
 }
 .txt {
     width: 30%;
@@ -86,17 +87,72 @@ background-color:rgb(0, 0, 0);
 #jogo2 {
     background: url(/imagens\ da\ landing\ page/capa_tlou.png) center/cover no-repeat;
 }
+#jogo2 p {
+    font-size: 20px;
+    text-align: justify;
+    background-color: rgb(255, 248, 248);
+    opacity: 50%;
+    color: black;
+}
+.txt {
+    width: 30%;
+    padding: 10px;
+}
 #jogo3 {
     background: url(/imagens\ da\ landing\ page/capa_COD_Warzone.png) center/cover;
+}
+#jogo3 p {
+    font-size: 20px;
+    text-align: justify;
+    background-color: rgb(255, 248, 248);
+    opacity: 50%;
+    color: black;
+}
+.txt {
+    width: 30%;
+    padding: 10px;
 }
 #jogo4 {
     background: url(/imagens\ da\ landing\ page/capa_cs_go.png) center/cover;
 }
+#jogo4 p {
+    font-size: 20px;
+    text-align: justify;
+    background-color: rgb(255, 248, 248);
+    opacity: 50%;
+    color: black;
+}
+.txt {
+    width: 30%;
+    padding: 10px;
+}
 #jogo5 {
     background: url(/imagens\ da\ landing\ page/capa_r6.png) center/cover;
 }
+#jogo5 p {
+    font-size: 20px;
+    text-align: justify;
+    background-color: rgb(255, 248, 248);
+    opacity: 50%;
+    color: black;
+}
+.txt {
+    width: 30%;
+    padding: 10px;
+}
 #jogo6 {
     background: url(/imagens\ da\ landing\ page/capa_fifa-22.png) center/cover;
+}
+#jogo6 p {
+    font-size: 20px;
+    text-align: justify;
+    background-color: rgb(255, 248, 248);
+    opacity: 50%;
+    color: black;
+}
+.txt {
+    width: 30%;
+    padding: 10px;
 }
 img {
     width: 100%;
