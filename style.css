@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: "Poppins";
+    font-size: 16px;
+}
+body {
+background-color:rgb(0, 0, 0);
+}
+#AreaMenu {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    position: fixed;
+}
+#nav {
+    width: 100%;
+    text-align: center;
+}
+#menu {
+    width: 100%;
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+}
+#menu li {
+    margin: 0 10px;
+}
+#menu li a {
+    color: rgb(150, 150, 150);
+    text-decoration: none;
+    font-size: 20px;
+}
+#menu li a:hover {
+    color: rgb(255, 255, 255);
+    transition: ease .5s;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.jogo {
+    width: 100%;
+    height: 100vh;
+    padding-top: 200px;
+    color: rgb(150, 150, 150);
+}
+#fullSite {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+}
+#welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    padding-top: 50px;
+}
+#welcome h1 {
+    text-align: center;
+}
+#jogo1 {
+    background: url(/imagens\ da\ landing\ page/capa_gow_4.png) center/cover;
+}
+#jogo1 div{
+    font-size: 20px;
+    text-align: justify;
+    background-color: rgb(0, 0, 0);
+    opacity: 50%;
+    color: rgb(255, 255, 255);
+}
+
+#jogo2 {
+    background: url(/imagens\ da\ landing\ page/capa_tlou.png) center/cover no-repeat;
+}
+#jogo2 div {
+    font-size: 20px;
+    text-align: justify;
+    background-color: rgb(0, 0, 0);
+    opacity: 50%;
+    color: rgb(255, 255, 255);
+    display: inline;
+    float:right;
+}
+
+#jogo3 {
+    background: url(/imagens\ da\ landing\ page/capa_COD_Warzone.png) center/cover;
+}
+#jogo3 div {
+    font-size: 20px;
+    text-align: justify;
+    background-color: rgb(0, 0, 0);
+    opacity: 50%;
+    color: rgb(255, 255, 255);
+}
+
+#jogo4 {
+    background: url(/imagens\ da\ landing\ page/capa_cs_go.png) center/cover;
+}
+#jogo4 div {
+    font-size: 20px;
+    text-align: justify;
+    background-color: rgb(0, 0, 0);
+    opacity: 50%;
+    color: rgb(255, 255, 255);
+}
+
+#jogo5 {
+    background: url(/imagens\ da\ landing\ page/capa_r6.png) center/cover;
+}
+#jogo5 div {
+    font-size: 20px;
+    text-align: justify;
+    background-color: rgb(0, 0, 0);
+    opacity: 50%;
+    color: rgb(255, 255, 255);
+}
+
+#jogo6 {
+    background: url(/imagens\ da\ landing\ page/capa_fifa-22.png) center/cover;
+
+}
+#jogo6 div {
+    font-size: 20px;
+    text-align: justify;
+    background-color: rgb(0, 0, 0);
+    opacity: 50%;
+    color: rgb(255, 255, 255);
+}
+
+img {
+    width: 100%;
+}
+.txt {
+    width: 30%;
+    padding: 20px;
+}
